@@ -23,7 +23,12 @@ SET @@SESSION.SQL_LOG_BIN= 0;
 
 SET @@GLOBAL.GTID_PURGED=/*!80000 '+'*/ '614c2025-0205-11f1-aada-363858f48cd7:1-126';
 
---
+-- Crear la base de datos si no existe 
+CREATE DATABASE IF NOT EXISTS alumnos_db; 
+
+-- Usar esa base 
+USE alumnos_db;
+
 -- Table structure for table `alumnos`
 --
 
