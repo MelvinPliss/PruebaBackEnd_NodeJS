@@ -19,6 +19,9 @@ https://www.npmjs.com/package/npm?activeTab=versions
 -Si desean usar un cliente para editar algo en la base de datos
 utilicen Sql WorkBench
 
+NOTA: Deben correr primero el docker-compose.yml del proyecto PruebaBackend-NodeJS para tener la base de datos disponible para usar los endpoints del proyecto
+
+usuarios para utilizar en endpoint login: NombreUsuario: user1, Clave: clave1 o user2 y clave2
 
 Instalacion y ejecucion de proyecto
 1. Clona el repositorio con el siguiente comando
